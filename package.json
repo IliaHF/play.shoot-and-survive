@@ -6,7 +6,7 @@
   "scripts": {
     "prepare": "cd api/ably-token-request && npm install",
     "dev:app": "vite",
-    "start": "node run index.js && netlify dev -c \"npm run dev:app\" --targetPort 8080",
+    "start": "node index.js && netlify dev -c \"npm run dev:app\" --targetPort 8080",
     "test": "npm run test:app",
     "test:app": "vitest run",
     "build": "npx vite build"
