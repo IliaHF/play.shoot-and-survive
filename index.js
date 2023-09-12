@@ -1,1 +1,1 @@
-app.use(express.static('app'));
+app.use('/static', express.static('app'))
